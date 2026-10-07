@@ -1,0 +1,25 @@
+{
+  "shop_domain": "demo-store.example",
+  "id": "demo-order-001",
+  "created_at": "2026-10-07T09:00:00Z",
+  "financial_status": "paid",
+  "currency": "EUR",
+  "total_price": "42.00",
+  "landing_site": "https://demo-store.example/?oppref=demo-click-A%2B%2F%3D",
+  "order_status_url": "https://demo-store.example/orders/demo-order-001?key=demo-access-token",
+  "customer": {
+    "id": " demo-Customer-001 ",
+    "email": " DEMO.Buyer@demo-store.example ",
+    "phone": "+1 (202) 555-0142",
+    "first_name": "Demo José",
+    "last_name": "O'Demo"
+  },
+  "note_attributes": [
+    { "name": "measurement_session_id", "value": "demo-session-001" },
+    { "name": "measurement_consent", "value": "granted" },
+    { "name": "measurement_consent_revision", "value": "1" },
+    { "name": "chatgpt_event_id", "value": "demo-store.example:order:demo-order-001" },
+    { "name": "chatgpt_oppref", "value": "demo-click-A+/=" },
+    { "name": "chatgpt_obref", "value": "demo-browser-reference-001" }
+  ]
+}

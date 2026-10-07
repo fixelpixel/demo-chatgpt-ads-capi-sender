@@ -1,0 +1,20 @@
+{
+  "name": "demo-chatgpt-ads-capi-sender",
+  "version": "0.1.0",
+  "description": "Synthetic, consent-gated ChatGPT Ads Conversions API sender with shared pixel IDs and dry-run delivery.",
+  "author": "Daniil Maximkin (https://taskfordaniel.com)",
+  "homepage": "https://taskfordaniel.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fixelpixel/demo-chatgpt-ads-capi-sender.git"
+  },
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "demo": "node scripts/demo.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
